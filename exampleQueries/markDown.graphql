@@ -1,0 +1,16 @@
+#GET MARKDOWN DATA
+query MyQuery {
+    allMarkdownRemark {
+        edges {
+            node {
+                frontmatter {
+                    date
+                    title
+                }
+                excerpt
+                timeToRead
+                html
+            }
+        }
+    }
+}

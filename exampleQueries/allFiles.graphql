@@ -1,0 +1,14 @@
+#GET ALL FILES
+query allFiles{
+    allFile {
+        edges {
+            node {
+                relativePath
+                prettySize
+                extension
+                birthTime(fromNow: true)
+                size
+            }
+        }
+    }
+}
