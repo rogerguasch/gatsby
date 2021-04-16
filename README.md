@@ -1,2 +1,2 @@
 # gatsby
-Gatsby playground
+Gatsby playground, just for learning ;)
